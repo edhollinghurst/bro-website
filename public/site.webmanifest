@@ -1,0 +1,20 @@
+{
+  "name": "British Rainbow Open",
+  "short_name": "BRO",
+  "icons": [
+    {
+      "src": "/icon?id=android-chrome-192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon?id=android-chrome-512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
+
