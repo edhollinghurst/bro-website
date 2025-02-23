@@ -15,12 +15,24 @@ export default function Hero() {
           <p className="text-xl md:text-2xl font-bold tracking-wide uppercase text-white mb-12">
             Dalmahoy Hotel & Country Club
           </p>
-          <a
-            href="#sign-up"
-            className="inline-block bg-blue-600 text-white font-bold uppercase tracking-wider py-4 px-8 rounded-full text-lg hover:bg-blue-700 transition duration-300"
-          >
-            Register Interest
-          </a>
+          <div className="space-y-8">
+            <div className="bg-white/90 backdrop-blur rounded-lg p-6 inline-block">
+              <p className="text-blue-600 font-bold uppercase tracking-wide mb-2">
+                Early Bird Offer
+              </p>
+              <p className="text-gray-800">
+                Book before 25th March 2025 for exclusive rates
+              </p>
+            </div>
+            <div>
+              <a
+                href="#sign-up"
+                className="inline-block bg-blue-600 text-white font-bold uppercase tracking-wider py-4 px-8 rounded-full text-lg hover:bg-blue-700 transition duration-300"
+              >
+                Register Interest
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

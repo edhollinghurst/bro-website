@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "British Rainbow Open | LGBTQ+ Golf Tournament",
   description:
-    "Join us for the inaugural LGBTQ+ inclusive golf tournament in Scotland, the home of golf. British Rainbow Open, September 2025.",
+    "Join us for the inaugural LGBTQ+ inclusive golf tournament at Dalmahoy Hotel & Country Club, Scotland. 11-13 September 2025. Early bird rates available.",
   keywords: [
     "golf",
     "LGBTQ+",
@@ -17,22 +17,15 @@ export const metadata: Metadata = {
     "Scotland",
     "inclusive",
     "British Rainbow Open",
+    "Dalmahoy",
   ],
   authors: [{ name: "British Rainbow Open Organizers" }],
   openGraph: {
     title: "British Rainbow Open | LGBTQ+ Golf Tournament",
     description:
-      "Join us for the inaugural LGBTQ+ inclusive golf tournament in Scotland, the home of golf. British Rainbow Open, September 2025.",
+      "Join us for the inaugural LGBTQ+ inclusive golf tournament at Dalmahoy Hotel & Country Club, Scotland. 11-13 September 2025. Early bird rates available.",
     url: "https://britishrainbowopen.com",
     siteName: "British Rainbow Open",
-    images: [
-      {
-        url: "https://www.dalmahoyhotelandcountryclub.co.uk/media/3824/dalmahoy-golf-3.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Scottish Golf Resort - Dalmahoy Hotel and Country Club",
-      },
-    ],
     locale: "en_GB",
     type: "website",
   },
@@ -40,10 +33,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "British Rainbow Open | LGBTQ+ Golf Tournament",
     description:
-      "Join us for the inaugural LGBTQ+ inclusive golf tournament in Scotland, the home of golf. British Rainbow Open, September 2025.",
-    images: [
-      "https://www.dalmahoyhotelandcountryclub.co.uk/media/3824/dalmahoy-golf-3.jpg",
-    ],
+      "Join us for the inaugural LGBTQ+ inclusive golf tournament at Dalmahoy Hotel & Country Club, Scotland. 11-13 September 2025. Early bird rates available.",
+    creator: "@brogolfuk",
+    site: "@brogolfuk",
   },
   robots: {
     index: true,
@@ -83,12 +75,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-      <Script
-        src="https://scripts.simpleanalyticscdn.com/latest.js"
-        data-collect-dnt="true"
-        defer
-      />
+      <body className={inter.className}>
+        {children}
+        <Script
+          src="https://scripts.simpleanalyticscdn.com/latest.js"
+          data-collect-dnt="true"
+          defer
+        />
+      </body>
     </html>
   );
 }

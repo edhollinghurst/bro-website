@@ -1,9 +1,10 @@
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import About from "./components/About"
-import Location from "./components/Location"
-import SignUpForm from "./components/SignUpForm"
-import Footer from "./components/Footer"
+import About from "./components/About";
+import Competition from "./components/Competition";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Location from "./components/Location";
+import SignUpForm from "./components/SignUpForm";
 
 export default function Home() {
   return (
@@ -13,10 +14,10 @@ export default function Home() {
         <Hero />
         <About />
         <Location />
+        <Competition />
         <SignUpForm />
       </main>
       <Footer />
     </div>
-  )
+  );
 }
-
