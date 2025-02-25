@@ -39,7 +39,9 @@ export default function Location() {
                   </li>
                   <li className="flex items-center space-x-2">
                     <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
-                    <span>Tournament Prizes & Edinburgh Transfers</span>
+                    <span>
+                      Transfer for the closing awards dinner in Edinburgh
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -74,7 +76,7 @@ export default function Location() {
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-transparent z-10"></div>
             <Image
-              src="/dalmahoy-golf-3.jpg"
+              src="https://www.dalmahoyhotelandcountryclub.co.uk/media/3824/dalmahoy-golf-3.jpg"
               alt="Scottish Golf Resort"
               fill
               className="object-cover rounded-lg"

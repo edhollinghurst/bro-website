@@ -8,19 +8,18 @@ export default function Footer() {
           <div>
             <p>&copy; 2025 British Rainbow Open</p>
           </div>
-          <div className="flex items-center space-x-4">
+          <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
             <a
               href="https://www.instagram.com/brogolfuk/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 hover:text-gray-300 transition-colors"
+              className="flex items-center space-x-2 hover:text-gray-300 transition-colors bg-blue-600 px-4 py-2 rounded-full"
             >
               <Instagram className="h-5 w-5" />
-              <span>@brogolfuk</span>
+              <span>Follow @brogolfuk</span>
             </a>
-            <span className="text-gray-400">|</span>
-            <a href="mailto:info@brogolf.co.uk" className="hover:underline">
-              info@brogolf.co.uk
+            <a href="mailto:brogolfuk@gmail.com" className="hover:underline">
+              brogolfuk@gmail.com
             </a>
           </div>
         </div>

@@ -66,6 +66,7 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/site.webmanifest",
+  generator: "v0.dev",
 };
 
 export default function RootLayout({
@@ -82,7 +83,16 @@ export default function RootLayout({
           data-collect-dnt="true"
           defer
         />
+        <noscript>
+          <img
+            src="https://queue.simpleanalyticscdn.com/noscript.gif"
+            alt=""
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </noscript>
       </body>
     </html>
   );
 }
+
+import "./globals.css";

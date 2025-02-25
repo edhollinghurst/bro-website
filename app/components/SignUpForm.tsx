@@ -1,5 +1,7 @@
 "use client";
 
+import type React from "react";
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -53,11 +55,26 @@ export default function SignUpForm() {
     <section id="sign-up" className="py-20 bg-gray-100">
       <div className="container mx-auto px-4 max-w-md">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
-          Register Your Interest
+          Stay Updated
         </h2>
+        <div className="text-center mb-8">
+          <p className="text-gray-600 mb-4">
+            Sign up to our mailing list to stay informed about BRO news and
+            updates.
+          </p>
+          <a
+            href="https://www.instagram.com/brogolfuk/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-700"
+          >
+            <span>Follow us on Instagram</span>
+            <span className="text-sm">@brogolfuk</span>
+          </a>
+        </div>
         {submitted ? (
           <div className="text-center text-green-600">
-            <p className="mb-4">Thank you for your interest!</p>
+            <p className="mb-4">Thank you for signing up!</p>
             <p>We'll keep you updated on the British Rainbow Open.</p>
           </div>
         ) : (

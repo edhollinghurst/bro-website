@@ -12,11 +12,11 @@ export default function About() {
             <Flag className="h-12 w-12 text-blue-600 flex-shrink-0" />
             <div>
               <h3 className="text-xl font-bold uppercase tracking-wide mb-2">
-                Inaugural Tournament
+                Premier Tournament
               </h3>
               <p className="text-gray-600">
-                The first major LGBTQ+ inclusive golf tournament in the UK,
-                celebrating diversity in Scottish golf.
+                The premier LGBTQ+ inclusive golf tournament in British Golf,
+                celebrating diversity and inclusion.
               </p>
             </div>
           </div>
