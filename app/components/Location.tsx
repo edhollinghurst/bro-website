@@ -47,10 +47,10 @@ export default function Location() {
               </div>
               <div className="space-y-4 bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold uppercase tracking-wide text-blue-600">
-                  Early Bird Rates
+                  Room Rates
                 </h3>
                 <p className="text-sm text-gray-600 mb-4">
-                  Book before 25th March 2025
+                  Book before 1st June 2025
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div>
@@ -65,7 +65,7 @@ export default function Location() {
                 <div className="mt-4 pt-4 border-t border-gray-200">
                   <p className="font-bold uppercase mb-2">Payment Schedule:</p>
                   <ul className="space-y-1 text-sm">
-                    <li>• £90 deposit before 25th March 2025</li>
+                    <li>• £90 deposit before 1st June 2025</li>
                     <li>• Final balance due 1st August 2025</li>
                     <li>• Payments via Sportas app</li>
                   </ul>
